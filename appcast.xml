@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Claude Stats</title>
+    <link>https://1pitaph.github.io/claude-stats-releases/appcast.xml</link>
+    <description>Most recent updates to Claude Stats.</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.1.0</title>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://github.com/1pitaph/claude-stats-releases/releases/tag/v1.1.0</sparkle:releaseNotesLink>
+      <pubDate>Wed, 13 May 2026 06:21:23 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.1.0/ClaudeStats-1.1.0.zip" sparkle:edSignature="kxKy5txrWFmBnhnsy+KP/W38sJsoOZVq9d9vR8qt2sb4xl2ZzyVtvHe80OJ9SOXXyhkU6gl3dZ/ZFNguOwwjDg==" length="4877363" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
