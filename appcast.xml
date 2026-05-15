@@ -6,6 +6,20 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.3.1</title>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<ul>
+<li>feat: 添加排行榜功能与缓存统计优化</li>
+<li>chore(release): v1.3.0 [skip ci]</li>
+</ul>
+]]></description>
+      <pubDate>Fri, 15 May 2026 11:17:33 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.3.1/ClaudeStats-1.3.1.zip" sparkle:edSignature="MxRf0OAOwQi8ytioSrb35ixt5gkG2ZfiB2MpSBcx5rblKXuD5W+K18whyHN9WzCzAIFfiQxWYS6x9Lu8aCKDDw==" length="6181838" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.3.0</title>
       <sparkle:version>13</sparkle:version>
       <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
