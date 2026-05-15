@@ -6,6 +6,24 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.3.0</title>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<ul>
+<li>refactor: 提取并重构模型显示名逻辑，新增趋势图表</li>
+<li>perf: 优化多处视图渲染性能，减少无效重计算</li>
+<li>refactor: 重构设置页面为内嵌主窗口模式</li>
+<li>feat: add GitHub contribution overlap dashboard and cache read token toggle</li>
+<li>feat: add main window, dashboard and cache stats features</li>
+<li>chore(release): v1.1.2 [skip ci]</li>
+</ul>
+]]></description>
+      <pubDate>Fri, 15 May 2026 02:35:19 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.3.0/ClaudeStats-1.3.0.dmg" sparkle:edSignature="0/YInDZa11WnbFOe4Ir+934+Vggw/Pk29r08O83DkJLlXkM5SQmNTzBLgZg8vPv8b5cSgP03qQ9N8ubD5Q2kCA==" length="6566859" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.1.2</title>
       <sparkle:version>12</sparkle:version>
       <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
