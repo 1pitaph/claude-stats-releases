@@ -6,6 +6,20 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.3.3</title>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<ul>
+<li>refactor: 调整各页面内边距并添加CloudKit配置</li>
+<li>chore(release): v1.3.2 [skip ci]</li>
+</ul>
+]]></description>
+      <pubDate>Fri, 15 May 2026 15:37:07 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.3.3/ClaudeStats-1.3.3.dmg" sparkle:edSignature="Kq7KoSigdDLzXpL7KSXLHRszJTvoMXp2C94Q30KkvmQBVvo2kRFuxWVMBd0ccCos8hSpoVxBfxbgO9eJEQKtDQ==" length="7043134" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.3.2</title>
       <sparkle:version>15</sparkle:version>
       <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
