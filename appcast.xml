@@ -6,6 +6,19 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.3.11</title>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>1.3.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<ul>
+<li>build: 新增签名构建配置并优化构建脚本</li>
+</ul>
+]]></description>
+      <pubDate>Sat, 16 May 2026 23:56:11 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.3.11/ClaudeStats-1.3.11.dmg" sparkle:edSignature="Afu6xLXZcBV3ZWywRWXOcbX2XaPWD4GhAoQWAd5aGlNWegjD9JazFmniJu8E3nPJK1KSXZhW+5KA+62PUGckDQ==" length="27979558" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.3.9</title>
       <sparkle:version>23</sparkle:version>
       <sparkle:shortVersionString>1.3.9</sparkle:shortVersionString>
