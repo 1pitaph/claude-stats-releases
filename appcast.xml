@@ -6,25 +6,16 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
-      <title>Version 1.4.1</title>
-      <sparkle:version>33</sparkle:version>
-      <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+      <title>Version 1.4.2</title>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <h2>本次更新</h2>
-<ul>
-<li>新增完整的CLI环境检查系统，包括：</li>
-<li>新增CLI环境检测视图与管理逻辑</li>
-<li>实现CLI工具状态检测与版本比对</li>
-<li>支持扫描并清理环境变量冲突</li>
-<li>添加完整的单元测试覆盖</li>
-<li>新增API提供商密钥存储模式枚举，支持JSON本地存储和Keychain安全存储</li>
-<li>新增通用API提供商模型与相关工具类</li>
-<li>实现配置提供商存储、管理与应用逻辑</li>
-</ul>
+<p>本次发布包含稳定性和体验改进。</p>
 ]]></description>
-      <pubDate>Sun, 17 May 2026 08:00:04 GMT</pubDate>
-      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.4.1/ClaudeStats-1.4.1.dmg" sparkle:edSignature="PqIbBo0UNhqOPyrtan2msdINzlevySTT5V4JgDjX/y8LB4s2kFP25lXiJK+qZa1rP9R6zFMJQZf8M0b6t3stAg==" length="81543423" type="application/octet-stream"/>
+      <pubDate>Sun, 17 May 2026 08:51:44 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.4.2/ClaudeStats-1.4.2.dmg" sparkle:edSignature="7abm72asIjwrfl6p8SBK7MkytSgaYUWfCEn8/ESUX7/DktQy7IzfwrdD5n9EkkaltOAp+6K73HAaHGU814CXAw==" length="81532926" type="application/octet-stream"/>
     </item>
     <item>
       <title>Version 1.4.0</title>
