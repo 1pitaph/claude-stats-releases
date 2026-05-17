@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.4.5</title>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>新增了排行榜历史数据加载逻辑、详情面板和列表组件，实现了用户得分历史图表展示，重构了排行榜页面布局移除多余容器，添加了完整的单元测试覆盖。</li>
+<li>新增系统监控功能，支持查看CPU、内存、磁盘、网络、电池、GPU和 thermal 状态</li>
+<li>添加系统监控设置页面，可启用功能、调整刷新频率和选择显示模块</li>
+<li>重构主窗口布局，使用通用模式容器统一管理应用和设置界面</li>
+<li>新增相关偏好设置存储与测试用例</li>
+<li>添加macOS系统依赖框架</li>
+<li>新增LeaderboardWideWorkspaceLayout自定义布局实现宽屏双栏排版</li>
+<li>拆分出LeaderboardTitleHeader和LeaderboardOverviewPanel组件</li>
+</ul>
+]]></description>
+      <pubDate>Sun, 17 May 2026 13:34:59 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.4.5/ClaudeStats-1.4.5.dmg" sparkle:edSignature="G1i20xG6qEy86ypMd/pv5ArZHEusMsgcDiBUKUnuAnCej8cJA5uurRp4/So1jrqIfZk2dkeEY+TP6ft/pFfRDg==" length="82167131" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.4.4</title>
       <sparkle:version>36</sparkle:version>
       <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
