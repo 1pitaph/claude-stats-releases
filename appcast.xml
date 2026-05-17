@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.4.4</title>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>新增了3个图标素材SVG文件，并更新了图标配置文件，添加了一套新的应用图标组合。</li>
+<li>这一提交添加了多项核心功能与优化：</li>
+<li>新增成本估算模式选择，支持标准API定价与详细账单两种模式</li>
+<li>重构成本计算逻辑，支持按不同模式计算总费用</li>
+<li>集成Claude服务状态监控面板与通知功能</li>
+<li>更新默认定价配置，调整Opus模型的API费率</li>
+<li>优化会话排序与分组逻辑，支持按成本模式排序</li>
+<li>新增对Claude会话中快速模式与网页搜索费用的详细计算</li>
+</ul>
+]]></description>
+      <pubDate>Sun, 17 May 2026 11:29:16 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.4.4/ClaudeStats-1.4.4.dmg" sparkle:edSignature="uZFi35y2QHHpHGvDbWHmzIdzgu2l+Nm6k9f9k+x5mZmp/0Pb4qsqfNVTn75AFVmcpuKDiYiBsyOLaUA39rbVDQ==" length="81732190" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.4.3</title>
       <sparkle:version>35</sparkle:version>
       <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
