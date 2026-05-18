@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.4.7</title>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>1.4.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>新增网络调试面板的流量布局切换功能，支持自动/上下分栏/左右分栏三种模式，可自定义自动布局断点。优化了侧边栏显示逻辑与 inspector 面板布局，完善相关偏好设置与测试用例。</li>
+<li>新增了完整的网络调试功能模块，包括本地代理服务、流量捕获、证书管理和系统代理配置，同时在主界面添加了网络调试侧边栏入口。</li>
+<li>新增Features设置页，统一管理所有功能开关</li>
+<li>移除菜单栏设置中的浮动标签模块</li>
+<li>重构各设置页面，适配新的功能设置架构</li>
+<li>更新通知跳转逻辑，支持直接打开指定设置页面</li>
+<li>为禁用状态的设置项添加统一的禁用样式</li>
+<li>新增通用HoverableSplitView拆分视图组件，支持悬停显示分割条</li>
+</ul>
+]]></description>
+      <pubDate>Mon, 18 May 2026 11:43:16 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.4.7/ClaudeStats-1.4.7.dmg" sparkle:edSignature="pi/saxWVVYaqBfrQz8/rcGynIE0eGEQfNkuuRAxEChXQAgTN3b6dRTg0vprp/gGZoMzGnKc4je0a14PFyv0MDw==" length="87697335" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.4.6</title>
       <sparkle:version>38</sparkle:version>
       <sparkle:shortVersionString>1.4.6</sparkle:shortVersionString>
