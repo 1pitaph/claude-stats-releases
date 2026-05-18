@@ -6,6 +6,25 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.4.8</title>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>1.4.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>新增Atoll驱动的Mac动态岛功能，支持多屏幕、快捷开关与自定义模块</li>
+<li>添加设置页面与偏好设置支持，可配置显示模式、尺寸与启用模块</li>
+<li>新增版本历史页面，可查看1.4.0以来的更新日志</li>
+<li>添加Atoll子模块依赖与所需的权限配置</li>
+<li>新增相关单元测试与UI预览代码</li>
+<li>为git工作区卡片视图设置全局的leading对齐方式，统一卡片布局的对齐表现</li>
+</ul>
+]]></description>
+      <pubDate>Mon, 18 May 2026 14:21:05 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.4.8/ClaudeStats-1.4.8.dmg" sparkle:edSignature="cZy3zzx6aW5Y0bItmX2UnOMx+AjTDSx5hhNX0dQfoowU9jZEpvPfPVc+cl7hEtPM4goHhpqjjY978xQaqkfuAA==" length="87905177" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.4.7</title>
       <sparkle:version>39</sparkle:version>
       <sparkle:shortVersionString>1.4.7</sparkle:shortVersionString>
