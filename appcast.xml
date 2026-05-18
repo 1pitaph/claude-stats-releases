@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.4.6</title>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>1.4.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>本次提交新增了完整的排行榜本地缓存系统，包括：</li>
+<li>新增LeaderboardLocalStore实现本地数据持久化，支持分数、历史记录和用户档案的缓存</li>
+<li>为所有数据模型添加Codable支持，便于序列化存储</li>
+<li>实现基于指纹的增量同步逻辑，仅在数据变更时才上传</li>
+<li>新增排行榜数据缓存TTL机制，自动刷新过期缓存</li>
+<li>重构同步逻辑，分离前台同步和后台静默同步</li>
+<li>添加完善的单元测试覆盖缓存和同步逻辑</li>
+<li>优化UI层数据加载逻辑，优先使用本地缓存并在后台刷新</li>
+</ul>
+]]></description>
+      <pubDate>Mon, 18 May 2026 01:40:03 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.4.6/ClaudeStats-1.4.6.dmg" sparkle:edSignature="GJ2y1vKrU7dtBhoKHadJ5kg+wN+0GizuIJ3yOe3UR+9y6Ece4XXHfE7B0xFKWPYBz3kV6U1lMT5EWDInzbkBAg==" length="82267176" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.4.5</title>
       <sparkle:version>37</sparkle:version>
       <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
