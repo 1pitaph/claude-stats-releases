@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.4.9</title>
+      <sparkle:version>41</sparkle:version>
+      <sparkle:shortVersionString>1.4.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>实现首次启动时自动设置开机自启的默认行为，仅在用户未手动修改过设置时生效</li>
+<li>新增了完整的悬浮面板服务状态展示体系：</li>
+<li>创建状态模型与适配器，支持Claude和OpenAI服务状态解析</li>
+<li>添加悬浮状态视图组件，支持状态展示与空状态、错误状态处理</li>
+<li>扩展悬浮面板状态与视图，支持展开/折叠状态切换</li>
+<li>新增从悬浮面板跳转主窗口指定页面的功能</li>
+<li>完善悬浮面板的动画与交互逻辑</li>
+<li>优化了Claude和OpenAI的状态通知设置页面：</li>
+</ul>
+]]></description>
+      <pubDate>Mon, 18 May 2026 15:33:36 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.4.9/ClaudeStats-1.4.9.dmg" sparkle:edSignature="Hve5NILL45YWjh3EWSbK0lDbe3E5IIHDQp1cDEvPNOnUscaXCidVoQE5QKZSN7/fqKveNObU3x9Y/Neah3csBA==" length="87969672" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.4.8</title>
       <sparkle:version>40</sparkle:version>
       <sparkle:shortVersionString>1.4.8</sparkle:shortVersionString>
