@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.5.3</title>
+      <sparkle:version>45</sparkle:version>
+      <sparkle:shortVersionString>1.5.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>此次提交新增了网络调试时的上游代理支持，包括：</li>
+<li>将Rockxy子模块切换至自定义分支仓库</li>
+<li>添加上游代理相关的数据模型、配置UI和偏好存储</li>
+<li>新增系统代理上游探测与自动链式代理功能</li>
+<li>在流量列表中显示当前请求使用的上游代理信息</li>
+<li>添加上游连通性测试功能</li>
+<li>重构系统代理管理逻辑，支持配置还原</li>
+<li>同时更新了AGENTS.md文档说明Rockxy分支的管理方式。</li>
+</ul>
+]]></description>
+      <pubDate>Tue, 19 May 2026 10:02:00 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.5.3/ClaudeStats-1.5.3.dmg" sparkle:edSignature="2YXpz9ceD6+joFTsTct0m5elQeHSnVHgP6PwuFMBC7GVN7uPp80TNm91eGgKJo4GYtQyBXqYm+OKmOkrix1XAA==" length="101870245" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.5.2</title>
       <sparkle:version>44</sparkle:version>
       <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
