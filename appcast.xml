@@ -6,6 +6,25 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.5.4</title>
+      <sparkle:version>46</sparkle:version>
+      <sparkle:shortVersionString>1.5.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>本次提交完成了多项核心功能更新：</li>
+<li>重构网络侧边栏与分区，新增代理、助手、上游代理三个分区，迁移旧版setup分区</li>
+<li>新增WebSocket帧捕获与展示、规则匹配元数据展示</li>
+<li>完善规则引擎与代理后端实现，支持规则增删改查、插件管理、断点调试、请求重放</li>
+<li>更新测试用例与发布历史版本号</li>
+<li>调整项目依赖与构建配置，移除废弃的脚本插件管理器代码</li>
+</ul>
+]]></description>
+      <pubDate>Tue, 19 May 2026 11:01:34 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.5.4/ClaudeStats-1.5.4.dmg" sparkle:edSignature="rQX9mdhTcresUYkrHpKpDtAKFcEqrNAU1X4Jljt0o4TUuLWPuYQBon6hEbty0O1yu0/BhD8k47/snOjwissXDg==" length="102472931" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.5.3</title>
       <sparkle:version>45</sparkle:version>
       <sparkle:shortVersionString>1.5.3</sparkle:shortVersionString>
