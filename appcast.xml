@@ -6,6 +6,24 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.5.2</title>
+      <sparkle:version>44</sparkle:version>
+      <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>新增被动刷新助手状态的API，无需主动请求即可获取当前注册状态</li>
+<li>新增check类型的助手操作枚举与对应展示文案</li>
+<li>优化release构建脚本，添加助手工具重签名和权限校验逻辑</li>
+<li>修复Xcode构建签名配置，禁用自动注入权限</li>
+<li>新增单元测试验证被动状态刷新逻辑</li>
+</ul>
+]]></description>
+      <pubDate>Tue, 19 May 2026 09:15:52 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.5.2/ClaudeStats-1.5.2.dmg" sparkle:edSignature="ref466BFZITtNau4qlAiR6hY9TQ3r6kxT6tD3Mxm8WuxMOmzC/yKX7VQFrrUv6holVbQSAeg91mMQunX2G3ADQ==" length="101661270" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.4.9</title>
       <sparkle:version>41</sparkle:version>
       <sparkle:shortVersionString>1.4.9</sparkle:shortVersionString>
