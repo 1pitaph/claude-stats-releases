@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.5.5</title>
+      <sparkle:version>47</sparkle:version>
+      <sparkle:shortVersionString>1.5.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>This commit adds a full suite of network debugging features:</li>
+<li>New network proxy event types and breakpoint management APIs</li>
+<li>Network body store for persisting request/response data</li>
+<li>Upstream environment and credential management with Keychain support</li>
+<li>Full request/response export/import support (cURL, HAR, raw formats)</li>
+<li>Replay, batch automate and WebSocket debugging workflows</li>
+<li>New fading text component and refactored Git graph UI</li>
+<li>Updated test cases for all new functionality</li>
+</ul>
+]]></description>
+      <pubDate>Tue, 19 May 2026 23:47:14 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.5.5/ClaudeStats-1.5.5.dmg" sparkle:edSignature="uwEnRxgc3MJSn0Q09bc9+w5mSVsfcP6jmLVp7kswaTLcAxOQVQU/EwndxSYczSuZfKZ8EzjGB9Y4Uj0kDdEVDA==" length="102903874" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.5.4</title>
       <sparkle:version>46</sparkle:version>
       <sparkle:shortVersionString>1.5.4</sparkle:shortVersionString>
