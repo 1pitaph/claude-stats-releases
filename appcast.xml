@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.5.13</title>
+      <sparkle:version>55</sparkle:version>
+      <sparkle:shortVersionString>1.5.13</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>新增ClaudeCLIInstallDetecting协议与实现类，检测Claude CLI安装状态</li>
+<li>新增桌面辅助功能权限检查器，重构权限检测逻辑</li>
+<li>添加.permissionRecheck触发类型，支持权限重检查流程</li>
+<li>新增UsageLimitStore权限状态自动清理与权限重检查循环</li>
+<li>新增主窗口激活时自动触发权限重检查的逻辑</li>
+<li>重构ClaudeProvider的使用限额报告逻辑，根据CLI安装状态展示不同引导文案</li>
+<li>新增大量单元测试覆盖新功能逻辑</li>
+<li>本次提交新增了完整的LinuxDo社区浏览功能：</li>
+</ul>
+]]></description>
+      <pubDate>Wed, 20 May 2026 15:14:02 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.5.13/ClaudeStats-1.5.13.dmg" sparkle:edSignature="SKrGmovNGDuthz1mU/zL/oU/jSyYf6/ri789qJCNuvtHvi9R4CiCXXHIFdLFPxg9erbzJSoxr7hGnYOTKotzDg==" length="104906073" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.5.12</title>
       <sparkle:version>54</sparkle:version>
       <sparkle:shortVersionString>1.5.12</sparkle:shortVersionString>
