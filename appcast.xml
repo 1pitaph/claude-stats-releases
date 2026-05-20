@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.6.0</title>
+      <sparkle:version>56</sparkle:version>
+      <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>新增LocalSkillDetailModel和RemoteSkillDetailModel用于展示技能详情数据</li>
+<li>新增SkillFactModel、SkillMarkdownDocument等配套数据结构</li>
+<li>重构MainWindowModeShell的侧边栏切换逻辑，使用transition替代offset动画</li>
+<li>为SkillsStore添加selectedLocalDetail和selectedRemoteDetail计算属性</li>
+<li>新增对应测试用例验证详情数据正确性</li>
+<li>实现了LinuxDo侧边栏、工作区视图，将其加入主窗口导航系统，调整了主窗口布局适配新页面，修复了侧边栏切换偏移逻辑</li>
+<li>本次提交大幅重构了Linux.do客户端的认证系统，添加了基于WebKit浏览器会话的登录方式：</li>
+<li>新增LinuxDoWebSession和相关Cookie存储模型，支持通过浏览器登录会话进行认证</li>
+</ul>
+]]></description>
+      <pubDate>Wed, 20 May 2026 16:54:49 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.6.0/ClaudeStats-1.6.0.dmg" sparkle:edSignature="FXIPz0/FGADyB69RZVZINDzHOj+YdRK4+r8pPddYBTVhbb/6jyf2pg4BzHDkZBvYlo6g6u65rKrvDKHYeF2kCw==" length="104951982" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.5.13</title>
       <sparkle:version>55</sparkle:version>
       <sparkle:shortVersionString>1.5.13</sparkle:shortVersionString>
