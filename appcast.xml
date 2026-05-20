@@ -6,6 +6,25 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.5.9</title>
+      <sparkle:version>50</sparkle:version>
+      <sparkle:shortVersionString>1.5.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>新增AppLanguagePreference管理应用语言偏好，支持跟随系统、英文、简体中文</li>
+<li>重构字体加载逻辑，根据语言自动切换Sora或系统字体</li>
+<li>全量替换硬编码字符串为本地化宏L10n</li>
+<li>新增本地化测试用例与InfoPlist多语言配置</li>
+<li>新增设置页面语言切换选项，支持重启后生效</li>
+<li>将项目中所有直接写死的文本替换为L10n本地化字符串宏，统一管理应用文案，方便后续多语言适配和修改，同时保持原有默认值保证功能正常运行。</li>
+</ul>
+]]></description>
+      <pubDate>Wed, 20 May 2026 05:16:45 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.5.9/ClaudeStats-1.5.9.dmg" sparkle:edSignature="KmvS7Hz7TvR5B2FkKjgMmfD8f8Cik5avitcbn48WPPRZ4b1L5+a+mp9pZ6q9fHA8xcY5Qbi7F+dc9oWuyyWWAA==" length="103324967" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.5.8</title>
       <sparkle:version>49</sparkle:version>
       <sparkle:shortVersionString>1.5.8</sparkle:shortVersionString>
