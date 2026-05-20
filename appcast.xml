@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.5.8</title>
+      <sparkle:version>49</sparkle:version>
+      <sparkle:shortVersionString>1.5.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>add UsageLimitSegmentLayout for usage segment calculation</li>
+<li>refactor UsageLimitWindowCard to use view model</li>
+<li>rewrite UsageLimitSegmentStrip with Canvas for better performance</li>
+<li>add new unit tests for layout logic</li>
+<li>add release history files for versions 1.4.3, 1.5.2~1.5.7</li>
+<li>update release workflow to handle new release note files</li>
+<li>update release history generator to support skipped patch versions and JSON output</li>
+<li>新增了针对Claude和Codex的使用限额追踪功能，包括：</li>
+</ul>
+]]></description>
+      <pubDate>Wed, 20 May 2026 04:52:30 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.5.8/ClaudeStats-1.5.8.dmg" sparkle:edSignature="sregflfaHFjjlRXlYnWEkSLL5w7sEauh+9aIwDOl1TfgBLtRtejl+gpbXVYjq97eX223dYlxzt1TdQUC92QrDw==" length="103060266" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.5.7</title>
       <sparkle:version>48</sparkle:version>
       <sparkle:shortVersionString>1.5.7</sparkle:shortVersionString>
