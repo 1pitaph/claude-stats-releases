@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.5.12</title>
+      <sparkle:version>54</sparkle:version>
+      <sparkle:shortVersionString>1.5.12</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>为各类使用统计数据模型添加数据修订ID，用于生成唯一缓存键，确保数据变更时正确刷新视图缓存。</li>
+<li>为TokenUsage、ModelUsage数组、TrendSeries添加dataRevisionID计算属性</li>
+<li>更新UsageModelBreakdownSnapshot和UsageTrendSnapshotKey，加入修订ID参数</li>
+<li>补充对应测试用例验证缓存键随数据变更而变化</li>
+<li>新增完整的AI配置浏览详情页，支持按分类查看配置文件</li>
+<li>新增侧边栏导航和搜索功能，支持筛选配置文件</li>
+<li>新增配置文件预览和诊断检查功能</li>
+<li>重构侧边栏导航，移除旧的configs页面路由</li>
+</ul>
+]]></description>
+      <pubDate>Wed, 20 May 2026 11:11:27 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.5.12/ClaudeStats-1.5.12.dmg" sparkle:edSignature="56B2ejQWKHtjbUDTEh75YuZnqiPtHbuGd6fpCagWmUIkOlfjlNksIz6r7/oPTFGtKXAN1Or5k8zjWPcjd9gTBA==" length="104461016" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.5.10</title>
       <sparkle:version>52</sparkle:version>
       <sparkle:shortVersionString>1.5.10</sparkle:shortVersionString>
