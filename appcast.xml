@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.5.10</title>
+      <sparkle:version>52</sparkle:version>
+      <sparkle:shortVersionString>1.5.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>This commit adds full realtime leaderboard functionality:</li>
+<li>Adds CloudKit push notification entitlement and registration</li>
+<li>Implements subscription management for leaderboard realtime updates</li>
+<li>Adds local storage for realtime state tracking</li>
+<li>Adds view model integration for realtime status and auto-refresh</li>
+<li>Updates UI to show realtime sync status</li>
+<li>Adds comprehensive test coverage for realtime features</li>
+<li>Refactors sync UI to combine refresh and sync actions</li>
+</ul>
+]]></description>
+      <pubDate>Wed, 20 May 2026 06:56:30 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.5.10/ClaudeStats-1.5.10.dmg" sparkle:edSignature="KvAYvDoXx02LL7MTRc7kwNWXJSNkIljxHQyk53c8wpRLZVCkNjl4ULpsdv61wanzHBx0GAJazjFgE1Ufc9SpBw==" length="103379657" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.5.9</title>
       <sparkle:version>50</sparkle:version>
       <sparkle:shortVersionString>1.5.9</sparkle:shortVersionString>
