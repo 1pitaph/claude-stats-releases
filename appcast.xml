@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.5.7</title>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>1.5.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>更新Rockxy子模块到最新版本</li>
+<li>重构事务模型，拆分开始/完成时间，新增连接建立时长</li>
+<li>添加客户端归因枚举，优化客户端名称识别逻辑</li>
+<li>实现带图标的客户端列表展示，支持常见应用图标匹配</li>
+<li>修复上游代理状态判断逻辑，新增代理模式变更处理</li>
+<li>优化序列号生成逻辑，修复事务重复计数问题</li>
+<li>新增进程缓存失效机制，提升进程识别准确性</li>
+<li>同时在源仓库和公共附属仓库创建GitHub Release，补充说明源仓库的发布用于项目内部记录</li>
+</ul>
+]]></description>
+      <pubDate>Wed, 20 May 2026 01:03:07 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.5.7/ClaudeStats-1.5.7.dmg" sparkle:edSignature="0gROolA93DbyOiEjy4DM5GWoQD2wBA4Wy/eXqFvuRJCJtyn7czPP3RQiL5BNBFplXwQp6ZZWpgEHiGz5oq/OBw==" length="102955707" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.5.5</title>
       <sparkle:version>47</sparkle:version>
       <sparkle:shortVersionString>1.5.5</sparkle:shortVersionString>
