@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.6.2</title>
+      <sparkle:version>58</sparkle:version>
+      <sparkle:shortVersionString>1.6.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>新增LinuxDo话题路由解析与导航逻辑</li>
+<li>完善Post响应模型与LinuxDoPost数据结构</li>
+<li>实现完整的HTML内容解析与富文本展示</li>
+<li>添加话题列表页UI优化与分类颜色支持</li>
+<li>集成本地通知跳转处理</li>
+<li>新增帖子跳转加载逻辑与测试用例</li>
+<li>新增内容包括：</li>
+<li>Linux.do账号授权登录功能，支持浏览器外部授权回调</li>
+</ul>
+]]></description>
+      <pubDate>Thu, 21 May 2026 04:04:38 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.6.2/ClaudeStats-1.6.2.dmg" sparkle:edSignature="gjZjfo+HQtHPEHs3WdD07sl+Le1wkRksJ1LGETrHL+fbMIlQ8W8mlBkABp3FeLIMbK8HZgJaeb/mTGDXzdeqDg==" length="106591314" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.6.0</title>
       <sparkle:version>56</sparkle:version>
       <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
