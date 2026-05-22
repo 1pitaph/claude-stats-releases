@@ -6,6 +6,24 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.6.7</title>
+      <sparkle:version>63</sparkle:version>
+      <sparkle:shortVersionString>1.6.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>新增Linux.do论坛阅读导航的滞回切换逻辑，调整布局参数</li>
+<li>重构帖子跳转方法，支持按楼层号精准匹配而非流索引</li>
+<li>优化阅读位置记录防抖和滚动定位逻辑</li>
+<li>添加项目README的图标和资源目录说明</li>
+<li>更新了项目说明、功能特性、安装方式、隐私政策、构建指南、项目结构和贡献指南，新增LICENSE文件完整添加AGPLv3许可内容</li>
+</ul>
+]]></description>
+      <pubDate>Fri, 22 May 2026 02:18:09 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.6.7/ClaudeStats-1.6.7.dmg" sparkle:edSignature="W6YlQgPGPwktTbxPDV+b972vdFhYAxe4OzsI6ZadiwzkZYWYB/YZT4nka2buhwv+AXva7pCMBopzE8SAg/jnBQ==" length="104538417" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.6.6</title>
       <sparkle:version>62</sparkle:version>
       <sparkle:shortVersionString>1.6.6</sparkle:shortVersionString>
