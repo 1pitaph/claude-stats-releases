@@ -6,6 +6,24 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.6.6</title>
+      <sparkle:version>62</sparkle:version>
+      <sparkle:shortVersionString>1.6.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>新增prune-debug-symbols.sh脚本用于清理*.dSYM调试符号包</li>
+<li>在构建GitTools和Linguist运行时流程中加入符号清理步骤</li>
+<li>优化代码签名逻辑，增加失败重试机制</li>
+<li>修复验证脚本，排除dSYM目录并加入残留dSYM检查</li>
+<li>调整所有相关find命令以跳过dSYM目录</li>
+</ul>
+]]></description>
+      <pubDate>Fri, 22 May 2026 00:00:17 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.6.6/ClaudeStats-1.6.6.dmg" sparkle:edSignature="uX4w6qCCUy4L52fdWQlmaAVsiEPjdaeMSORrWxr6Sg8i8SfX5GwpjNlOZdq0pu7dBlJl3epn6f51Sn3WfUlCAQ==" length="104504730" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.6.4</title>
       <sparkle:version>60</sparkle:version>
       <sparkle:shortVersionString>1.6.4</sparkle:shortVersionString>
