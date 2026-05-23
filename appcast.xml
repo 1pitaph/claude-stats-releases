@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.7.1</title>
+      <sparkle:version>68</sparkle:version>
+      <sparkle:shortVersionString>1.7.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>本次提交新增了OpenComputerUseKit第三方库作为桌面自动化依赖，重构了Claude桌面使用采集流程：</li>
+<li>新增屏幕录制权限检查器，统一管理屏幕录制权限请求逻辑</li>
+<li>新增OpenComputerUse原生文本阅读器，优先使用自动化接口采集数据</li>
+<li>重构使用解析逻辑，支持新的Claude桌面UI用量格式</li>
+<li>新增自动化测试用例覆盖新功能</li>
+<li>修复权限重检查逻辑，支持屏幕录制权限的重新校验</li>
+<li>将原有的background修饰符改为使用frame和新的background闭包语法，优化视图布局结构</li>
+<li>替换硬编码的半透明背景色为AppSurface.panelFill统一主题样式</li>
+</ul>
+]]></description>
+      <pubDate>Sat, 23 May 2026 13:55:25 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.7.1/ClaudeStats-1.7.1.dmg" sparkle:edSignature="KliVWEJTcCe3v/4h9HSqwIGzX/Fg+54ptUa52eI+pC4+7wWDwVefkNyI0jKoTWrAeVZEY2zYFkoHF3C2lZ7PBg==" length="105009464" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.7.0</title>
       <sparkle:version>66</sparkle:version>
       <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
