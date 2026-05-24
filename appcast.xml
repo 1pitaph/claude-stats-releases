@@ -6,6 +6,28 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.7.3</title>
+      <sparkle:version>71</sparkle:version>
+      <sparkle:shortVersionString>1.7.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>添加llama.cpp子模块与相关桥接代码</li>
+<li>新增本地AI设置页面与语义搜索功能</li>
+<li>仅支持Apple Silicon Mac，更新构建与发布脚本</li>
+<li>新增嵌入模型管理与会话相似性搜索</li>
+<li>优化构建流程，添加代码签名与瘦身脚本</li>
+<li>移除TranscriptAnalysisService内的本地TF-IDF分析器实例，改为通过索引获取持久化快照</li>
+<li>新增v2数据库schema，创建corpus相关表用于全局语料库存储</li>
+<li>重构测试用例，新增数据库迁移测试和新的语料库快照测试</li>
+</ul>
+]]></description>
+      <pubDate>Sun, 24 May 2026 11:39:13 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.7.3/ClaudeStats-1.7.3.dmg" sparkle:edSignature="ijifKUc7attXY7n2Tv/CcTFolpoY8eaSMraxhUJ68wS6REy2Oy3P5MBdVaj+Eq57vkkumjWEz8hqmDPlogBUDA==" length="110318530" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.7.2</title>
       <sparkle:version>70</sparkle:version>
       <sparkle:shortVersionString>1.7.2</sparkle:shortVersionString>
