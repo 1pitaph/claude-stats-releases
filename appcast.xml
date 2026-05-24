@@ -6,6 +6,27 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.7.2</title>
+      <sparkle:version>70</sparkle:version>
+      <sparkle:shortVersionString>1.7.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>新增了完整的技术术语词典系统，包括词典模型、标准化处理、设置页面，实现了基于词典的会话术语分析，并且当词典变更时会自动触发会话分析重新生成。</li>
+<li>这一提交实现了多项 Claude 用量限制相关的功能改进：</li>
+<li>新增可配置的 Claude 用量窗口显示功能，支持在设置中选择额外显示的 Claude 计划用量行</li>
+<li>改进用量文本解析器，支持非断字符格式的时间和标签匹配</li>
+<li>优化缓存写入逻辑，合并新旧快照数据以保留完整用量信息</li>
+<li>重构用量窗口目录管理，统一窗口ID、排序和过滤逻辑</li>
+<li>完善自动化捕获流程，支持部分快照合并和最优快照选择</li>
+<li>新增多项测试用例覆盖新功能和边界场景</li>
+</ul>
+]]></description>
+      <pubDate>Sun, 24 May 2026 02:44:57 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.7.2/ClaudeStats-1.7.2.dmg" sparkle:edSignature="jNLZElqJFWVVXpvjihFBSihKCWZExMdsBQE27NfguhWx5D5A4n2Fz+XuuUzZBn4xs87K/MI1eJDe+IMxCPFJCA==" length="109808936" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.7.1</title>
       <sparkle:version>68</sparkle:version>
       <sparkle:shortVersionString>1.7.1</sparkle:shortVersionString>
