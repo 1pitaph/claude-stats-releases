@@ -6,6 +6,21 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.7.4</title>
+      <sparkle:version>73</sparkle:version>
+      <sparkle:shortVersionString>1.7.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>新增了完整的Sparkle增量更新自动化流程，包括delta生成、签名和appcast更新；同时扩展了调试符号清理脚本，新增对对象文件和CMake构建产物的清理，并在代码签名脚本中跳过这些无用工件；新增了对应的单元测试，完善了CI发布流程的注释与步骤调整。</li>
+</ul>
+]]></description>
+      <pubDate>Sun, 24 May 2026 12:56:26 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.7.4/ClaudeStats-1.7.4.dmg" sparkle:edSignature="6l/vlJSeWXre9KyTt5L+aw3I1eyOf38RYKyj7P42CCl296vfb/ByjCCJYxu9Dfe3Q7QHDMwAeU/8Vhj0gB16Cg==" length="100745182" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.7.3</title>
       <sparkle:version>71</sparkle:version>
       <sparkle:shortVersionString>1.7.3</sparkle:shortVersionString>
