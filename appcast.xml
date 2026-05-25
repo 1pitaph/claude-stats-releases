@@ -6,6 +6,60 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.7.6</title>
+      <sparkle:version>75</sparkle:version>
+      <sparkle:shortVersionString>1.7.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<div style="font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; color: #1f2937;">
+<div style="margin: 0 0 18px; padding: 14px 16px; border: 1px solid #cdd9ed; border-radius: 12px; background: #f6f9ff;">
+  <p style="margin: 0 0 4px; color: #172033; font-size: 15px; font-weight: 700;">下载大小</p>
+  <p style="margin: 0 0 12px; color: #53627c; font-size: 12px; line-height: 1.5;">如果当前版本匹配可用增量包，将优先下载较小的增量更新；否则 Sparkle 会下载完整安装包。</p>
+  <table style="width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.35;">
+      <tr style="border-top: 1px solid #d7deea;">
+        <td style="padding: 8px 0; color: #2f3b52;">增量更新包</td>
+        <td style="padding: 8px 12px; color: #697386; font-size: 12px;">从 1.7.5 (build 74) 更新</td>
+        <td style="padding: 8px 0; color: #172033; font-weight: 700; text-align: right; white-space: nowrap;">1.7 MB</td>
+      </tr>
+      <tr style="border-top: 1px solid #d7deea;">
+        <td style="padding: 8px 0; color: #2f3b52;">增量更新包</td>
+        <td style="padding: 8px 12px; color: #697386; font-size: 12px;">从 1.7.4 (build 73) 更新</td>
+        <td style="padding: 8px 0; color: #172033; font-weight: 700; text-align: right; white-space: nowrap;">2.3 MB</td>
+      </tr>
+      <tr style="border-top: 1px solid #d7deea;">
+        <td style="padding: 8px 0; color: #2f3b52;">完整安装包</td>
+        <td style="padding: 8px 12px; color: #697386; font-size: 12px;">较旧版本会自动回退下载</td>
+        <td style="padding: 8px 0; color: #172033; font-weight: 700; text-align: right; white-space: nowrap;">101 MB</td>
+      </tr>
+  </table>
+</div>
+<div style="margin: 0; color: #1f2937; font-size: 13px; line-height: 1.55;">
+  <p style="margin: 0 0 10px; color: #172033; font-size: 15px; font-weight: 700;">更新内容</p>
+  <div style="margin: 0; padding: 0;">
+<h2>本次更新</h2>
+<ul>
+<li>替换了原有的系统图标，为Cursor、Windsurf、Trae、Qoder等Git工作区源添加了专属的自定义logo资源，更新了相关的数据模型和视图显示逻辑。</li>
+<li>新增GitWorkspaceSourceID枚举与相关工具类，支持Claude、Codex、Cursor等多源配置</li>
+<li>新增偏好设置项gitWorkspaceSourceIDs，可自定义启用的仓库数据来源</li>
+<li>在设置界面添加仓库源配置卡片，支持切换会话来源和编辑器工作区来源</li>
+<li>重构Git活动视图，改用配置的源ID过滤会话和工作区数据</li>
+<li>新增完整的测试用例覆盖源解析、工作区路径读取等逻辑</li>
+<li>更新文案适配多源场景，替换硬编码的Claude相关提示文本</li>
+<li>新增偏好设置项，支持配置启动时是否打开主窗口，默认开启</li>
+</ul>
+  </div>
+</div>
+</div>
+]]></description>
+      <pubDate>Mon, 25 May 2026 10:59:00 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.7.6/ClaudeStats-1.7.6.dmg" sparkle:edSignature="c7Pr96XWYHyT4VpAn6wmDR/rmd3j1IpGpIjTJqgc+oLTicJM9kVLag+jtWA98PTnfvkfhDWFgYY2ZZY008DjDw==" length="101166803" type="application/octet-stream"/>
+      <sparkle:deltas>
+        <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.7.6/ClaudeStats-75-from-74.delta" sparkle:deltaFrom="74" sparkle:edSignature="Zqym9bMwf+YMqVk6ZDLImvbpL8kzAe5pykPLqQHioDiIBQxcitpwLA72DnNJwOC+xZ+vit9Bg+cIo21BzE8yDA==" length="1725606" type="application/octet-stream"/>
+        <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.7.6/ClaudeStats-75-from-73.delta" sparkle:deltaFrom="73" sparkle:edSignature="BhnTxDV93kSrCWjkmsxnRGwrBn1oW6Nr9OcZ/H9KocHHoPrFmcKz+xXQZr1pCMaHAM0Ub5Dnu0hC92U3CjukAQ==" length="2258906" type="application/octet-stream"/>
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 1.7.5</title>
       <sparkle:version>74</sparkle:version>
       <sparkle:shortVersionString>1.7.5</sparkle:shortVersionString>
