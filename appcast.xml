@@ -6,6 +6,31 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.7.5</title>
+      <sparkle:version>74</sparkle:version>
+      <sparkle:shortVersionString>1.7.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>本次更新</h2>
+<ul>
+<li>新增GitDiff交互点击测试模块与配套测试</li>
+<li>新增diff文本测量、概览布局计算模块</li>
+<li>新增侧边概览栏显示差异块</li>
+<li>重构渲染调色板支持选中状态样式</li>
+<li>重构diff布局计算支持自适应容器宽度</li>
+<li>新增代码行自动换行适配窄宽度</li>
+<li>新增语义可视化视图的选中动画</li>
+<li>支持diff块的hover与选中高亮效果</li>
+</ul>
+]]></description>
+      <pubDate>Mon, 25 May 2026 08:32:09 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.7.5/ClaudeStats-1.7.5.dmg" sparkle:edSignature="PMioKgBZMQk+YLrEvyRPw3m37YLw7QrXCxP4GrCGbUuxXVf6mY0kc1a15q8rZc7NhEg1MPmeUdcSJzOakrnyBA==" length="101037424" type="application/octet-stream"/>
+      <sparkle:deltas>
+        <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.7.5/ClaudeStats-74-from-73.delta" sparkle:deltaFrom="73" sparkle:edSignature="ahPYwmEfKZcc9FB/+3RNQQNwxoxEa+I3CFsjsqmq/J+jQg2ebV1oobsztylwZacq8by+gnI3QmrEe8UidCfeCA==" length="2156350" type="application/octet-stream"/>
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 1.7.4</title>
       <sparkle:version>73</sparkle:version>
       <sparkle:shortVersionString>1.7.4</sparkle:shortVersionString>
