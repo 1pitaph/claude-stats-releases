@@ -6,6 +6,51 @@
     <description>Most recent updates to Claude Stats.</description>
     <language>en</language>
     <item>
+      <title>Version 1.7.7</title>
+      <sparkle:version>76</sparkle:version>
+      <sparkle:shortVersionString>1.7.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<div class="cs-appcast-notes" style="font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; color: #1f2937;">
+  <style>
+    .cs-update-summary { display: flex; align-items: center; justify-content: flex-start; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+    .cs-update-summary-title { color: #172033; font-size: 15px; font-weight: 700; line-height: 1.3; }
+    .cs-update-size-pills { display: inline-flex; align-items: center; min-width: 0; }
+    .cs-update-size-pill { display: inline-block; padding: 4px 10px; border: 0; border-radius: 999px; background: #eaf1ff; color: #172033; font-size: 12px; font-weight: 700; line-height: 1.2; white-space: nowrap; }
+    .cs-update-size-delta { display: none; }
+    .cs-update-size-delta.sparkle-installed-version { display: inline-block; }
+    .cs-update-size-delta.sparkle-installed-version ~ .cs-update-size-full { display: none; }
+  </style>
+<div class="cs-update-summary">
+  <span class="cs-update-summary-title">本次更新</span>
+  <span class="cs-update-size-pills"><span class="cs-update-size-pill cs-update-size-delta" data-sparkle-version="75">2.1 MB</span><span class="cs-update-size-pill cs-update-size-delta" data-sparkle-version="74">2.2 MB</span><span class="cs-update-size-pill cs-update-size-delta" data-sparkle-version="73">2.6 MB</span><span class="cs-update-size-pill cs-update-size-full">101 MB</span></span>
+</div>
+<div style="margin: 0; color: #1f2937; font-size: 13px; line-height: 1.55;">
+  <p style="margin: 0 0 10px; color: #172033; font-size: 15px; font-weight: 700;">更新内容</p>
+  <div style="margin: 0; padding: 0;">
+<h2>本次更新</h2>
+<ul>
+<li>将Claude桌面自动捕获和定时捕获的配置移到设置页面，简化使用面板，统一权限按钮命名</li>
+<li>新增UsageLimitStatus.cached状态与本地化文案</li>
+<li>重构Claude/Codex使用限制加载逻辑，过期缓存返回cached状态</li>
+<li>重构多处列表选择器为统一的AppSelect组件，统一UI风格</li>
+<li>更新相关测试用例适配新的状态逻辑</li>
+<li>重构appcast生成脚本，更新下载大小展示样式</li>
+</ul>
+  </div>
+</div>
+</div>
+]]></description>
+      <pubDate>Mon, 25 May 2026 21:37:35 GMT</pubDate>
+      <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.7.7/ClaudeStats-1.7.7.dmg" sparkle:edSignature="4sp99Cf7KbYpXUDQpggOiVwmkORVTLv3m7/tNhoNDpXfyc6t7te5+GzLdcn4cuXCldtYKo6pIohvuOpHk+bdDQ==" length="101094411" type="application/octet-stream"/>
+      <sparkle:deltas>
+        <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.7.7/ClaudeStats-76-from-75.delta" sparkle:deltaFrom="75" sparkle:edSignature="1jPX7hLukQMl302YjXDuJpSVZh5YAEyyDq4FQoBAOYEIMy7Q5Cijt2Rwnrz8ennJXVl2sUszaHsYphl7cuamAQ==" length="2073886" type="application/octet-stream"/>
+        <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.7.7/ClaudeStats-76-from-74.delta" sparkle:deltaFrom="74" sparkle:edSignature="FKBJt4OAN6ZqGG0c7MLaSqgWBwc3Z+Pnj8LAZxVVmLarGgAgJyZSOUGb48R46Xo7OnmujL4KWJZkSp8IUc5uDw==" length="2193854" type="application/octet-stream"/>
+        <enclosure url="https://github.com/1pitaph/claude-stats-releases/releases/download/v1.7.7/ClaudeStats-76-from-73.delta" sparkle:deltaFrom="73" sparkle:edSignature="M1fmEmfBEizSUIf+RQUqUv6ia1W9WXBXCjcJ8oXs9PWcN2x+RktiQLuHhaJieSyl5oswJxaLjVq2evSCMz6oCw==" length="2550718" type="application/octet-stream"/>
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 1.7.6</title>
       <sparkle:version>75</sparkle:version>
       <sparkle:shortVersionString>1.7.6</sparkle:shortVersionString>
